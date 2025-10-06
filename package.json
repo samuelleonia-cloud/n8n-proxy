@@ -1,0 +1,15 @@
+{
+  "name": "n8n-proxy",
+  "version": "1.0.0",
+  "description": "Proxy seguro para n8n en Hostinger",
+  "main": "server.js",
+  "type": "module",
+  "dependencies": {
+    "express": "^4.18.2",
+    "http-proxy-middleware": "^2.0.6"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
+}
+
